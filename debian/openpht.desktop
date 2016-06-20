@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=OpenPHT
+GenericName=OpenPHT
+Comment=Watch your media on the big screen
+Exec=openpht
+Icon=plex-icon-256
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AudioVideo;Audio;Video;Player;

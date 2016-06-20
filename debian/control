@@ -1,0 +1,69 @@
+Source: openpht
+Section: video
+Priority: optional
+Maintainer: Team RasPlex <info@rasplex.com>
+Homepage: http://rasplex.com/
+Standards-Version: 3.9.6
+Build-Depends: cmake (>= 3.1.0), debhelper (>= 9),
+ dh-exec,
+ cdbs,
+ unzip,
+ zip,
+ libgles2-mesa-dev [armel] | libgl1-mesa-dev | libgl-dev,
+ libglu1-mesa-dev | libglu-dev,
+ libglew-dev,
+ libjpeg-dev,
+ libogg-dev,
+ libvorbis-dev,
+ libfreetype6-dev,
+ libfontconfig-dev,
+ libbz2-dev,
+ libfribidi-dev,
+ libsqlite3-dev,
+ libasound2-dev | libasound-dev,
+ libpng12-dev | libpng-dev,
+ libpcre3-dev,
+ liblzo2-dev,
+ libcdio-dev,
+ libsdl-dev,
+ libsdl-image1.2-dev,
+ libenca-dev,
+ libjasper-dev,
+ libxt-dev,
+ libxmu-dev,
+ libcurl4-gnutls-dev | libcurl-dev,
+ libdbus-1-dev,
+ libpulse-dev,
+ libavahi-common-dev,
+ libavahi-client-dev,
+ libxrandr-dev,
+ libmpeg2-4-dev,
+ libass-dev (>= 0.9.8),
+ libflac-dev,
+ zlib1g-dev,
+ libiso9660-dev,
+ libssl-dev,
+ libvdpau-dev,
+ libmicrohttpd-dev,
+ libmodplug-dev,
+ librtmp-dev,
+ curl,
+ libyajl-dev,
+ libboost-thread-dev,
+ libboost-system-dev,
+ libomxil-bellagio-dev [armel],
+ libplist-dev,
+ libcec-dev (>= 3),
+ libudev-dev,
+ libtiff5-dev | libtiff4-dev | libtiff-dev,
+ libtinyxml-dev (>= 2.6.2),
+ libva-dev
+
+Package: openpht
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, libcec2 | libcec3
+Replaces: plexhometheater
+Conflicts: plexhometheater
+Description: The most awesome Media Center you'll ever need.
+ Forked from the Plex Home Theater to continue supporting open source
+ Plex players.

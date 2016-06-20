@@ -1,0 +1,5 @@
+#!/usr/bin/dh-exec
+debian/openpht.sh => usr/bin/openpht
+debian/openpht.desktop usr/share/applications
+plex/Resources/plex-icon-256.png usr/share/pixmaps
+debian/openpht-steamtile_460x215.png usr/share/pixmaps
