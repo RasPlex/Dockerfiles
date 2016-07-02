@@ -1,7 +1,7 @@
 Source: openpht
 Section: video
 Priority: optional
-Maintainer: Team RasPlex <info@rasplex.com>
+Maintainer: Team RasPlex <linux@rasplex.com>
 Homepage: http://rasplex.com/
 Standards-Version: 3.9.6
 Build-Depends: cmake (>= 3.1.0), debhelper (>= 9),
