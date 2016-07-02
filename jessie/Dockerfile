@@ -70,6 +70,7 @@ RUN apt-get update && apt-get install -y \
     libiso9660-dev \
     libusb-dev \
     libudev-dev \
+    yasm \
     --no-install-recommends \
  && rm -rf /var/lib/apt/lists/*
 
