@@ -64,6 +64,4 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, libcec2 | libcec3
 Replaces: plexhometheater
 Conflicts: plexhometheater
-Description: The most awesome Media Center you'll ever need.
- Forked from the Plex Home Theater to continue supporting open source
- Plex players.
+Description: OpenPHT is a community driven fork of Plex Home Theater.

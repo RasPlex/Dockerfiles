@@ -5,7 +5,7 @@ DEB_AUTO_UPDATE_DEBIAN_CONTROL := yes
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/cmake.mk
 
-DEB_CMAKE_INSTALL_PREFIX = /usr/lib/openpht
+DEB_CMAKE_INSTALL_PREFIX = /usr
 DEB_CMAKE_NORMAL_ARGS += -DCMAKE_BUILD_TYPE=Release -DUSE_INTERNAL_FFMPEG=ON -DENABLE_SHAIRPLAY=OFF
 
-DEB_DH_SHLIBDEPS_ARGS_ALL = -l`pwd`/debian/openpht/usr/lib/openpht/bin/system/players/dvdplayer
+DEB_DH_SHLIBDEPS_ARGS_ALL = -l`pwd`/debian/openpht/usr/lib/openpht/system/players/dvdplayer
